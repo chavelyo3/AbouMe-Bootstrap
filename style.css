@@ -1,0 +1,64 @@
+body {
+    background-image: url("../AboutMe_Bootstrap/assets/Images/woodbackground.jpg");
+    background-color: #b3b3cc; 
+    width: 100%;
+   
+}
+
+.container {
+    position: relative;
+    border: 1px solid black;
+    background-color: white;
+    width: 70%;
+    height: 100%;
+  }
+
+  
+/* Solid border */
+.hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+  .h1 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.highlight {
+    background-color: #aa80ff;
+    color: black;
+    font-size: 30px;
+    
+}
+
+.section{
+    position: center;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    Border-style: dotted;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+
+
+/* footer */
+footer {
+    position: absolute;
+    background-color: #b3b3cc;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    border-top: 7px solid rgb(176, 106, 255);
+    margin-top: 30px;
+
+  }
