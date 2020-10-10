@@ -4,7 +4,6 @@ body {
   width: 100%;
 }
 
-
 .container {
   position: relative;
   border: 1px solid black;
@@ -21,10 +20,6 @@ body {
   font-size: 30px;
 }
 
-
-
-
-
 /* unvisited link */
 a:link {
   color: black;
@@ -34,12 +29,11 @@ a:link {
 a:visited {
   color: black;
 }
- 
+
 /* mouse over link*/
 a:hover {
-  color: #aa80ff
+  color: #aa80ff;
 }
-
 
 /* footer */
 footer {
@@ -51,4 +45,3 @@ footer {
   border-top: 7px solid rgb(176, 106, 255);
   margin-top: 30px;
 }
-
