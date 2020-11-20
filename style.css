@@ -64,3 +64,19 @@ footer {
     background-color:white;
     padding: 15px;
   }
+
+ /* resize mobile banner */
+@media screen and (max-width:640px) {
+  .homepage .Parallax-item:first-child img {
+      width: 100% !important;
+      height: auto !important;
+      left: 0 !important;
+  }
+  .homepage .Parallax-item:first-child figure {
+      transform: unset !important;
+  }
+  section#nicetomeetyou {
+      min-height: unset !important;
+      height: 250px;
+  }
+  }
