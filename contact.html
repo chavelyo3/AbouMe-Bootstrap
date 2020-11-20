@@ -1,70 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>About Me Bootstrap</title>
+  <title>Roxette Banos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet" href="../AboutMe-Bootstrap/style.css">
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-<!--Navbar-->
-
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
-  <a class="navbar-brand" href="#">
-    <h1><span class="highlight">Roxette</span>
-  </a></h1>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav w-50">
-      <li class="nav-item active">
-        <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">About Me</a>
-      </li>
-      </li>
-    </ul>
+  <!-- font -->
+  <style>
+    @import url("https://use.typekit.net/rjs8yrx.css");
+  </style>
+    <!--navebar-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Porfolio</a></li>
+        <li><a href="assets/resume/resume.pdf">Resume</a></li>
+    
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
-</head>
-
+<!--end of navbar-->
 <!--contact box-->
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12">
-
-    <h1><span class="highlight">Contact</span></h1>
-  </div>
   
-  <section class="form-group">
-    <label for="exampleFormControlInput1">Name</label>
-    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="First and Last">
+<div class="jumbotron">
+  <div class="container text-center">
+      <video autoplay muted playsinline src="assets/Images/contact.mp4" alt=" roxette chavely" width= "900" class ="center"></video> 
+  
+
+      <hr>
+
+      <form>
+        <div class="container-fluid bg-12 text-left">    
+          
+          <div class="row">
+            <div class="col-sm-12">
+        <div class="form-group">
+          <label for="Input-Name">Name</label>
+          <input type="text" class="form-control" placeholder="Enter name" id="Input-Name">
+        </div>
+        <div class="form-group">
+          <label for=Input-Email>Email address</label>
+          <input type="email" class="form-control" placeholder="Enter email" id="Input-Email">
+        </div>
+        <div class="form-group">
+          <label for="Input-Message">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" id="Input-Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" id="submit-button">Submit</button>
+      </form>
     </div>
-  </select>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Email Address</label>
-<input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
   </div>
-  </select>
-  <div class="form-group">
-    <label for="exampleFormControlSelect2">Message</label>
-    <select multiple class="form-control" id="exampleFormControlSelect3">
-      Message
-    </select>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </section>
 </div>
-</div>
+
  <!-- Copyright -->
  <footer class="footer-copyright text-center py-3">© 2020 Copyright:
   Roxette Banos</a>
