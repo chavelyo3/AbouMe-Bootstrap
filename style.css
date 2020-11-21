@@ -1,82 +1,79 @@
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-color: white;
   width: 100%;
   font-family: brandon-grotesque, sans-serif;
-font-style: normal;
-font-weight: 100;
+  font-style: normal;
+  font-weight: 100;
 }
-.container{
+
+.spacer {
+  flex: 1;
+}
+
+.jumbotron {
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+.container {
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+ 
+}
+.container2 {
   background-color: white;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
-.jumbotron{
-  background-color: white;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
+
 
 .highlight {
-  background-color:#7A3014;
+  background-color: #7a3014;
   color: black;
-  font-size: 30px;
+  font-size: 10px;
 }
 
-/* unvisited link */
-a:link {
-  color: black;
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar,.mynavbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: white;
+}
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #7A3014;
 }
 
-/* visited link */
-a:visited {
-  color: black;
-}
-
-/* mouse over link*/
-a:hover {
-  color: #aa80ff;
-}
-
-/* footer */
-footer {
-  position: absolute;
-  background-color: #b3b3cc;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
+/* make it visible for the purposes of demo */
+.footer {
+  height: 50px;
+  background-color: white;
   border-top: 7px solid#7A3014;
-  margin-top: 30px;
 }
 
-  /* Remove the navbar's default margin-bottom and rounded borders */ 
-  .navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-    background-color: white;
-  }
-  
-  /* Add a gray background color and some padding to the footer */
-  footer {
-    background-color:white;
-    padding: 15px;
-  }
-
- /* resize mobile banner */
-@media screen and (max-width:640px) {
+/* resize mobile banner */
+@media screen and (max-width: 640px) {
   .homepage .Parallax-item:first-child img {
-      width: 100% !important;
-      height: auto !important;
-      left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    left: 0 !important;
   }
   .homepage .Parallax-item:first-child figure {
-      transform: unset !important;
+    transform: unset !important;
   }
   section#nicetomeetyou {
-      min-height: unset !important;
-      height: 250px;
-  }
+    min-height: unset !important;
+    height: 250px;
   }
